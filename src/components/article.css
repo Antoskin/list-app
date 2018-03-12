@@ -1,0 +1,27 @@
+body {
+  font-family: arial, verdana, sans-serif;
+  font-size: large;
+}
+
+.mine-enter {
+  opacity: 0;  
+}
+
+.mine-enter.mine-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.mine-leave {
+  opacity: 1;
+}
+
+.mine-leave.mine-leave-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* .mine {
+  margin-top: 5px;
+  margin-bottom: 5px;
+} */
