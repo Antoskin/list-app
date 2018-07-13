@@ -16,3 +16,10 @@ export function deleteArticle(id) {
         payload: {id}
     }
 }
+
+export function selectFilter(id) {
+    return {
+        type: 'FILL',
+        payload: {id}
+    }
+}

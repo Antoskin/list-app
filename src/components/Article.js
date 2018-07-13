@@ -14,7 +14,7 @@ import toggleClass from '../decorators/toggleClass';
 class Article extends Component {
   render() {
     const { articl, sw, switchHandler } = this.props;
-    console.log(sw);
+    // console.log(sw);
    return <section className='grid-example'>
                     <h4>{articl.id} </h4>
                     <Button onClick={switchHandler}>
